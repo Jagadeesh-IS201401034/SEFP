@@ -1,0 +1,46 @@
+
+
+1.The software test procedure should consists of ..........................
+
+Ans:
+(a)Documentation Check
+(b)Availability Check
+(c)Detailed Check
+(d)Performance Assessment Check
+
+2.The techniques which are used for collection of system performance data are ...........
+
+Ans:
+(a)Hardware Measurement
+(b)Hardware Simulation
+(c)Software Sampling
+(d)Continuous Software Monitoring
+
+3.The requirements of software testing procedure are ..........................
+
+Ans: 
+(a)Any discrepancies should be detected and clearly defined so that meaningful discussions can take place between the user and the supplier.
+(b)Provide an incentive for the suppliers to improve their own Quality Assurance procedures for software.
+(c)Check the ‘efficiency’ of the software.
+
+4.What should be provided to the user along with software product?
+(a)Specific Documentation.
+(b)Detailed Products Operation and Performance.
+(c)Both a and b.
+(d)None.
+
+Ans:c
+
+5.What is appropriate when the target system is closely defined and low-level language is initially in doubt?
+(a)Bottom-Up Approach.
+(b)Top-Down Approach.
+(c)Both a and b.
+(d)None.
+
+
+Ans:b
+
+
+
+
+
