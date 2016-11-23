@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stacks and Queues</title>
+</head>
+<style type="text/css">
+	div {
+    width: 100px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 10px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+</style>
+<body>
+<div id="mydiv"></div>
+
+
+<script type="text/javascript">
+function myfunction(){
+//var iDiv = document.createElement('div');
+//document.getElementsByTagName('body')[0].appendChild(iDiv);
+
+
+var ne=document.createElement('div');
+//re.removeChild(re.childNodes[0]);
+var re=document.getElementById('mydiv');
+if (re.hasChildNodes()==null) {
+re.insertBefore(ne,re.childNodes[0]);
+}//re.removeChild(re.childNodes[0]);
+else{
+re.childNode.insertBefore(ne,re);
+}//re.removeChild(re.childNodes[0]);
+
+}
+</script>
+
+<script type="text/javascript">
+function myfunction1(){
+
+var re= document.getElementById("mydiv");
+if (re.hasChildNodes()) {
+	re.removeChild(re.childNodes[0]);
+}
+}
+</script>
+<center><button onclick="myfunction()">push</button></center>
+<center><button onclick="myfunction1()">pop</button></center>
+
+</body>
+</html>

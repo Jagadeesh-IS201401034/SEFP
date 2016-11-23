@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+table, td {
+    border: 2px solid black;
+    text-align:center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+tr:hover {background-color: #f5f5f5}
+tr:nth-child(even) {background-color: #f2f2f2}
+
+
+table {
+    table-layout: fixed;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+</style>
+</head>
+<body>
+
+<header><center><b> Stack Implementation</b><center></header>
+<div style="width:680px;margin:200px auto">
+
+<p><b>Go through the options to know how stack works!</b></p>
+
+
+<table id="myTable">
+<caption>Stack</caption>
+  <tr>
+    <td></td>
+  </tr>
+  
+</table>
+<br>
+<input type="text" id="user"></input>
+<button class="button" onclick="myCreateFunction()">Push</button>
+<button  class="button" onclick="myDeleteFunction()">Pop</button>
+<button class="button" onclick="create()"> Create </button>
+<script>
+var count=0;
+function myCreateFunction() {
+    var table = document.getElementById("myTable");
+    var row = table.insertRow(0);
+    var cell1 = row.insertCell(0);
+    var user=document.getElementById("user").value;
+    cell1.innerHTML=user;
+    
+    //cell1.innerHTML = Math.floor((Math.random() * 100) + 1);
+      document.getElementById('user').value='';
+
+
+}
+
+function create() {
+    var table = document.getElementById("myTable");
+    var row = table.insertRow(0);
+    var cell1 = row.insertCell(0);
+    //var user=document.getElementById("user").value;
+    //cell1.innerHTML=user;
+    
+    cell1.innerHTML = Math.floor((Math.random() * 100) + 1);
+
+    count=count +1;
+}
+
+function myDeleteFunction() {
+    document.getElementById("myTable").deleteRow(0);
+    
+}
+</script>
+
+</body>
+</html>
